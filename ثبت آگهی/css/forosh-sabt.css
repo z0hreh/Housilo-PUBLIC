@@ -1,0 +1,87 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("/font/B-Koodak/B\ Koodak\ Bold_0.ttf");
+  }  
+body {
+    font-family: myFirstFont !important;
+    overflow-x: hidden !important;
+  }
+  .order-nav {
+    order: 12;
+  }
+  .form-Box{
+    margin-top: 7em !important;
+  }
+  #submit-padding{
+    background-color:#FF9C37;
+    color: #ffff;
+  }
+  .Text-Area{
+    padding: 0 1vw 0 8vw !important;
+  } 
+  #submit-aghahi{
+    background-color: #FF9C37;
+    color: #ffff;
+    
+  }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .user-nav{
+    margin-left: 30vw !important;
+  }
+  /* #button-padding-one{
+    padding: 0 10.5vw 0 10.5vw !important;
+  }
+  #button-padding-two{
+    padding: 0 11.8vw 0 11.8vw !important;
+  } */
+  #submit-padding{
+    padding: 0.25vw 17.13vw 0.25vw 17.3vw !important;
+  }
+  #M-button-padding{
+    padding: 0 8.5vw 0 12.5vw !important;
+  }
+  .Text-Area{
+    padding: 0 8.5vw 0 12.5vw !important;
+  } 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .user-nav{
+    margin-left: 69vw !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   
+  .order-nav {
+    order: 0 !important;
+  }
+}
+
+
+
+
+
+
+
